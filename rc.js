@@ -3,7 +3,7 @@
 
   var Defined = {
     api: 'lampac',
-    localhost: 'https://rc.bwa.ad/',
+    localhost: 'https://uajokerrs.github.io/lampa-plugins/',
     apn: ''
   };
 
@@ -28,7 +28,7 @@
   }
 }
 
-var hostkey = 'https://rc.bwa.ad'.replace('http://', '').replace('https://', '');
+var hostkey = 'https://uajokerrs.github.io/lampa-plugins'.replace('http://', '').replace('https://', '');
 
 if (!window.rch_nws || !window.rch_nws[hostkey]) {
   if (!window.rch_nws) window.rch_nws = {};
